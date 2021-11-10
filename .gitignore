@@ -1,8 +1,6 @@
 .ipynb_checkpoints
 model.h5
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
-*.jpeg
 *.png
 *.bmp
 *.tif
