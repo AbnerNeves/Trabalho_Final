@@ -1,0 +1,9 @@
+runtime: python
+env: flexible
+entrypoint: gunicorn -b :$PORT mains:app
+
+runtime_config:
+  python_version: 3
+
+includes:
+  env_vars.yaml

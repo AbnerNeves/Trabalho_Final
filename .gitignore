@@ -1,2 +1,5 @@
 .ipynb_checkpoints
 model.h5
+
+# Dados Sensíveis
+env_vars.yaml
