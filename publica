@@ -1,0 +1,18 @@
+runtime: python
+env: flexible
+entrypoint: gunicorn -b :$PORT mains:app
+
+runtime_config:
+  python_version: 3
+
+includes:
+  env_vars.yaml
+  ---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "ando.cid20@uea.edu.br"
+AAAAB3NzaC1yc2EAAAADAQABAAABAQCQ5TRZ3ppUloPI6Kc0SzovWI5otqEnm+Rk
+aPr0V2caiB4D5VzmkiHESgPcYYGQDdIvFrfI6elDzwThZM8s5fnVJuakuRINu7nL
+VcZubFRA21ZmGtsW0DDh5tm66uXv6cQAx7KFjU2IbIRQFnsZ6DiDxfTo1RapeqkS
+qlLnB5LICJ1hZkpSYYBPTMO/jWdG4V7Clj12uuRh09Bi+4+MH5WrVSVTozKUgO8I
+WOcDivZjGhiaX0KqZ2ouv2Gwcqw7agioyxtF4GJaSL9w7pm7WuQZiVrBJWgb4tIv
+R0CwUKO0a9VFR6BXgwg16sjQFGswAIApzNEBp3eBDO1OkFFZM/iX
+---- END SSH2 PUBLIC KEY ----
